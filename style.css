@@ -1,0 +1,27 @@
+h1{
+    color: white;
+}
+h2, p{
+text-align: center;
+}
+.header{
+    background: rgb(32, 13, 116);
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
